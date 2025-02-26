@@ -23,3 +23,11 @@ Activate the environment and install the required packages:
 conda activate bt2automata
 pip install -r requirements.txt
 ```
+
+## Usage
+
+See the individual READMEs for both experiments in their respective folders, `/bt2ta` and `/hscc25-pandagym`. Both experiments make use of the same conda env `bt2automata`. Instructions for usage is provided in the repsective README.
+
+## Note
+
+UPPAAL requires a license to run, in this case an academic license is appropriate. The windows and linux versions may be preactivated with my license but the MacOS versions certainly are not. **The license key is included in the rebuttal and the instructions pdf.** I am not including it here for obvious reasons.
