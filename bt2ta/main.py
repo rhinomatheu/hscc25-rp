@@ -7,21 +7,21 @@ import os
 templates_model=pyuppaal.UModel("leaf_node_templates.xml")
 
 # convert the individual leaf node templates into TA helper class
-FA=TA(templates_model.templates[0])
+FA=TA.load_from_template(templates_model.templates[0])
 print(FA._name)
 
-FB=TA(templates_model.templates[1])
+FB=TA.load_from_template(templates_model.templates[1])
 print(FB._name)
 
-FCharger=TA(templates_model.templates[2])
+FCharger=TA.load_from_template(templates_model.templates[2])
 print(FCharger._name)
 
-CBatt=TA(templates_model.templates[3])
+CBatt=TA.load_from_template(templates_model.templates[3])
 print(CBatt._name)
 
 # Be sure to copy the grid and battery TA over too!
-Battery=TA(templates_model.templates[4])
-Grid=TA(templates_model.templates[5])
+Battery=TA.load_from_template(templates_model.templates[4])
+Grid=TA.load_from_template(templates_model.templates[5])
 
 ##############################################################################
 # Here we define the structure of the BT spec and compose the BT automaton
