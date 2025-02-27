@@ -23,6 +23,10 @@ Activate the environment and install the required packages:
 conda activate bt2automata
 pip install -r requirements.txt
 ```
+Download this branch:
+```bash
+git clone https://github.com/rhinomatheu/hscc25-rp -b macos-aarch
+```
 
 ## Usage
 
