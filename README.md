@@ -16,7 +16,7 @@ Windows 11 (recommended)
 
 Download this branch:
 ```bash
-git clone https://github.com/rhinomatheu/hscc25-rp -b linux-x86
+git clone https://github.com/rhinomatheu/hscc25-rp -b windows-x86
 cd hscc25-rp
 ```
 
