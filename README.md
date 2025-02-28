@@ -14,6 +14,12 @@ Windows 11 (recommended)
 
 ## Local Installation Instructions
 
+Download this branch:
+```bash
+git clone https://github.com/rhinomatheu/hscc25-rp -b linux-x86
+cd hscc25-rp
+```
+
 Create a conda environment:
 ```bash
 conda create -n "bt2automata" python=3.10
@@ -22,10 +28,6 @@ Activate the environment and install the required packages:
 ```bash
 conda activate bt2automata
 pip install -r requirements.txt
-```
-Download this branch:
-```bash
-git clone https://github.com/rhinomatheu/hscc25-rp -b windows-x86
 ```
 
 ## Usage
